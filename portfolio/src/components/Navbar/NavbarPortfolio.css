@@ -1,0 +1,17 @@
+/* .tabs {
+    @import "~bootstrap/scss/bootstrap";
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+} */
+.container-fluid-nav {
+    display: flex;
+}
+div.navbar-collapse {
+    flex-grow: 0;
+}
+@media screen and (max-width: 1152px) {
+    .nav-item {
+        text-align: center;
+    }
+}
