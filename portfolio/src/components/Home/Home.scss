@@ -1,0 +1,40 @@
+.portfolio {
+    //font-family: "Segoe UI"
+}
+
+.about-me {
+    padding-top: 40px;
+    display: flex;
+}
+
+.profile-picture {
+    padding-left: 34px;
+    width: 1030px;
+    height: 623px;
+}
+
+.project-picture {
+    padding-right: 34px;
+    width: 1030px;
+    height: 623px;
+}
+
+.name {
+    font: normal normal normal 48px/48px Segoe UI;
+    text-align: center;
+}
+
+.paragraph {
+    padding-top: 20px;
+    font: normal normal normal 36px/48px Segoe UI;
+}
+
+.featured-title {
+    padding-top: 81px;
+    padding-bottom: 81px;
+    font: normal normal normal 48px/64px Segoe UI;
+}
+
+.featured-project-info {
+    display: flex;
+}

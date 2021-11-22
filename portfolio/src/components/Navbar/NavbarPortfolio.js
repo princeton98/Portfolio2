@@ -1,3 +1,9 @@
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
@@ -7,6 +13,7 @@ import "./NavbarPortfolio.css"
 
 const NavbarPortfolio = () => {
     return (
+      <Router>
         <Navbar bg="light" expand="lg">
   <Container>
     <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
@@ -21,6 +28,7 @@ const NavbarPortfolio = () => {
     </Navbar.Collapse>
   </Container>
 </Navbar>
+</Router>
     )
 }
 
